@@ -14,4 +14,41 @@
     <p>olor a culo tu mama</p>
     <p>fernando</p>    
  </body>
+ <center><button type="submit" class="stbot" id="boton1">Datos de Contacto</button></center>
+ <br>
+ <section class="pad15" id="id1">
+    <center><span class="form1">celular: </span>
+     <span>3816769163</span></center> 
+ </section>
+
+ <section class="pad15" id="id2">
+     <center><span class="form1">telefono: </span>
+     <span>4287978</span></center>
+ </section> 
+
+ <section class="pad15" id="id3">
+     <center><span class="form1">e-mail: </span>
+     <span>facundotorrente19@gmail.com</span></center>
+ </section>
+ 
+ <center><button  class="inv"  type="button" id="id4">mostrar menos</button></center>
+ document.getElementById('boton1').onclick = function () {
+    document.getElementById('id1').style.display="block";
+    document.getElementById('id2').style.display ="block";
+    document.getElementById('id3').style.display ="block";
+    document.getElementById('id4').style.display ="block";
+    
+}
+   
+document.getElementById('id4').onclick = function () {
+    document.getElementById('id1').style.display ="none";
+    document.getElementById('id2').style.display ="none";
+    document.getElementById('id3').style.display ="none";
+    document.getElementById('id4').style.display ="none";
+}
+
+
+
+ <script src="funcion.js"></script>
+
 </html>
