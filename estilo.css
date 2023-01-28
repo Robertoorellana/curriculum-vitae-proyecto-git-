@@ -1,6 +1,5 @@
 
-Ul.col2{
-
+.col2{
     line-height:40px;
     vertical-align: text-top;
     background-color: orange;
@@ -21,44 +20,89 @@ Ul.col2{
     border-width: 1px;
     float:left;
 }
+
 button{
     background-color: orange;
     font-size:large;
 }
+
 #col11{
     margin:0px;
     width: 80%;
     float:left;
     padding: 0%;
 }
+
 #col1{
     margin:0px;
     width: 20%;
     float:left;
     box-sizing: border-box;
 }
+
 h3{
     text-decoration: underline;
 }
+
 p{
     text-decoration: underline;
 }
+
 hr {
     height: 3px;
     background-color: black;
   }
+  
 img{
     float:left;
 }
-.contenedor{
-    width: 100%;
-    max-width: 100%;
-}
-@media screen and (max-width: 200px){
-    .col11 {
-     width:20%;
-        }
-    .col2 {
-        width: 20%;
+
+@media screen and (max-width:400px){
+    img{
+        width:70%;
+        height: 70%;
     }
+    p{
+        width:100%;  
+    }
+    #col1{
+        padding: 5px;
+        width:50%;
+        height: 200px;
+        font-size: 5vw;
+    }
+    #col11{
+        width: 100%;
+        height: 1500px; 
+        font-size: 5vw;
+    }
+    *{
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:900px){
+    img{
+        width:70%;
+        height: 70%;
+        float: center;
+    }
+    p{
+        width:100%;  
+    }
+    #col11{
+        width:100%;
+        height: 50%;
+        font-size: 5vw;
+        position: top;
+    }
+    #col1{
+        width: 100%; 
+        height: 1800px;
+        font-size: 6vw;
+    }
+    *{
+        box-sizing: border-box;
+    }
+
 }
