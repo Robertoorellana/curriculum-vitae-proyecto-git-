@@ -1,8 +1,9 @@
-document.getElementById('boton').onclick=function (){
-    console.log("capturmaos un evento click");
-document.getElementById("demo").innerHTML=".facebook.com/roberto orellana"
+let text1 = document.getElementById('text1');
+
+let textocult = document.getElementById('textocult');
+
+text1.addEventListener('click', toggleText);
+function toggleText(){
+    textocult.classList.toggle('show')
 }
-document.getElementById('boton1').onclick=function (){
-    console.log("capturmaos un evento click");
-document.getElementById("demo1").innerHTML=".instagram/ manu.art.r"
-}
+
