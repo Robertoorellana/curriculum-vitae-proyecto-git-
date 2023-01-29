@@ -6,7 +6,7 @@
     border-color: orange;
     border-style: solid;
     margin: 0px;
-    height: 2150px;
+    height: 100%;
 }
 
 #col3{
@@ -36,14 +36,24 @@ button{
 }
 
 
-#col11{
+#colu2{
     margin:0px;
     width: 80%;
     float:left;
-    padding: 0%;
+}
+#colu3{
+    margin:0px;
+    width: 80%;
+    float:left;
+    padding-right:0%;
+    border-color: white;
+    border:2px;
+}
+body{
+    background-color: orange;
 }
 
-#col1{
+#colu1{
     margin:0px;
     width: 20%;
     float:left;
@@ -59,6 +69,7 @@ p{
 }
 
 hr {
+    max-width:100%;
     height: 3px;
     background-color: black;
   }
@@ -69,24 +80,26 @@ img{
 
 @media screen and (max-width:400px){
     img{
-        width:70%;
-        height: 70%;
+        width:30%;
+        height: 30%;
+        float: right;
     }
     p{
         width:100%;  
     }
-    #col1{
-    
+    #colu1{
         padding: 5px;
         width:50%;
         height: 200px;
-        font-size: 5vw;
-    }
-    #col11{
-        width: 100%;
-        height: 1500px; 
-        font-size: 5vw;
     
+    }
+    #colu2{
+        width: 100%;
+        height: 50%; 
+    
+    }
+    ul{
+        float: right;
     }
     #boton{
      font-size: auto;
@@ -101,25 +114,22 @@ img{
 
 @media screen and (max-width:900px){
     img{
-        width:70%;
-        height: 70%;
-        float: center;
+        width:30%;
+        height: 30%;
+        float:left;
     }
     p{
         width:100%;  
     }
-    #col11{
+    #colu2{
         width:100%;
-        height: 50%;
-        font-size: 6vw;
+        height: 40%;
         position: top;
     }
     
-    #col1{
+    #colu1{
         width: 100%; 
-        height: 1800px;
-        font-size: 6vw;
-        
+        height: 50%;
     }
     .botonA{
         font-size: 25px;
@@ -136,28 +146,23 @@ img{
 }
 @media screen and (max-width:1000px){
     img{
-        width:80%;
-        height: 80%;
-        float:center;
+        width:30%;
+        height: 30%;
+        float:right;
     }
     p{
         width:100%;  
     }
-    #col1{
-    
+    #colu1{
+        float:right;
         padding: 1px;
         width:100%;
-        height: 2000px;
-        font-size: 5vw;
+        height: 50%;
         display:flex;
-        justify-content: center;
     }
-    #col11{
+    #colu2{
         width: 100%;
-        height: 2000px; 
-        font-size: 5vw;
-        display:flex;
-        justify-content: center;
+        height: 50%; 
     }
     
     *{
